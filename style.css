@@ -3,3 +3,58 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #7b79da;
+    color: #3fa7d6;
+    font-family: Arial;
+    /* padding-bottom: 20%; */
+  }
+  
+  form {
+    line-height: 25px;
+  }
+  
+  h1 {
+    font-size: 4em;
+    overflow: break;
+  }
+  
+  .container {
+    width: 80%;
+    min-width: 30%;
+    margin: 3% auto;
+    display: block;
+    padding: 2%;
+    height: 50vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 40px;
+    text-align: center;
+    overflow: auto;
+  }
+
+  #for{
+    font-size:20px;
+  }
+
+  #guess {
+    padding: 5px;
+  }
+
+  #submit {
+    
+    padding: 5px 3px;
+    margin: 10px;
+    font-size: 18px;
+  }
+
+  #check {
+      margin-bottom: 50px;
+  }
+  
+  @media only screen and (max-width: 440px) {
+    h1 {
+      font-size: 3.5em;
+    }
+  }
+  
